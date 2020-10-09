@@ -1,0 +1,98 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.4
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 11.0.8
+java.home            : C:\Program Files\Java\jdk-11.0.8
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Fri Oct 09 09:58:42 BST 2020
+Loading Browser Profile
+Loading RunManager
+[Scenario:AccessibilityTesting] [TestCase: AccessibilityActions] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+ApiLink not available!!
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Inside Task Run
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 17577
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1602233925.224][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+2020-10-09 09:58:47:10S +0100 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: @https://www.bing.com | Conditon:  | @09-Oct-2020 09:58:47.047
+[DONE]   | Opened Url: https://www.bing.com
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: testAccessibility | Input: @Bing All | Conditon:  | @09-Oct-2020 09:58:47.047
+[WARNING]   | Bing All - Failed 2 violations found 
+
+===================================================================================================
+
+Step:3   | Object: Browser | Action: testAccessibility | Input: @Bing Include @include span,a | Conditon:  | @09-Oct-2020 09:58:48.048
+[WARNING]   | Bing Include - Failed 5 violations found 
+
+===================================================================================================
+
+Step:4   | Object: Browser | Action: testAccessibility | Input: @Bing Exclude @exclude a | Conditon:  | @09-Oct-2020 09:58:49.049
+[WARNING]   | Bing Exclude - Failed 3 violations found 
+
+===================================================================================================
+
+Step:5   | Object: Browser | Action: testAccessibility | Input: @Bing InExclude @include span, a @exclude p | Conditon:  | @09-Oct-2020 09:58:50.050
+[WARNING]   | Bing InExclude - Failed 3 violations found 
+
+===================================================================================================
+
+Step:6   | Object: Browser | Action: testAccessibility | Input: @BingOptions @options {runOnly:{type: "tag", values:["wcag2a"]}} | Conditon:  | @09-Oct-2020 09:58:50.050
+[WARNING]   | BingOptions - Failed 4 violations found 
+
+===================================================================================================
+
+Step:7   | Object: BingMenu | Action: testAccessibilityElement | Input:  | Conditon:  | @09-Oct-2020 09:58:51.051
+Using @type [ul], Object 'BingMenu' Found in 108 ms
+[DONE]   | BingMenu - Passed all the recommendations by aXe
+
+===================================================================================================
+
+Step:8   | Object: Sign in | Action: testAccessibilityElement | Input: @CustomName | Conditon:  | @09-Oct-2020 09:58:52.052
+Using @id [id_l], Object 'Sign in' Found in 18 ms
+[DONE]   | CustomName - Passed all the recommendations by aXe
+
+===================================================================================================
+
+Step:9   | Object: BindDisplay | Action: testAccessibilityElement | Input:  | Conditon:  | @09-Oct-2020 09:58:52.052
+Using @type [div], Object 'BindDisplay' Found in 118 ms
+[DONE]   | BindDisplay - Passed all the recommendations by aXe
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : AccessibilityTesting:AccessibilityActions
+Executed Steps       : 9
+Passed Steps         : 4
+Failed Steps         : 5
+Time Taken           : 00:00:10
+-----------------------------------------------------
+
+Run Finished on Fri Oct 09 09:58:53 BST 2020
+Performance log not found. Make sure "capturePageTimings" action is included in testcase. 
+-----------------------------------------------------
+ExecutionDate        : 09-Oct-2020 09-58-42
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:00:10
+ReportPath           : file:///C:\Working\Automation\cognizant-intelligent-test-scripter-1.4-setup\AppianEuroConf\Projects\DemoProject\Results\TestDesign\AccessibilityTesting\AccessibilityActions\09-Oct-2020 09-58-42\summary.html
+-----------------------------------------------------

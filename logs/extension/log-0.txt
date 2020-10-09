@@ -1,0 +1,3 @@
+2020-10-08 13:38:43:10S +0100 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startSpy:Launching Server for Spy
+2020-10-08 13:38:43:10S +0100 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2020-10-08 13:39:19:10S +0100 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped

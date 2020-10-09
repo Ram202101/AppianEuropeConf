@@ -1,0 +1,168 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.4
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 11.0.8
+java.home            : C:\Program Files\Java\jdk-11.0.8
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Thu Oct 08 14:09:50 BST 2020
+Loading Browser Profile
+Loading RunManager
+[Scenario:Home EAgro] [TestCase: Verify Login] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+ApiLink not available!!
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Inside Task Run
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 24192
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+2020-10-08 14:09:53:10S +0100 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: TestData0:URL | Conditon:  | @08-Oct-2020 14:09:53.053
+[DONE]   | Opened Url: https://cognizant-82015.appiancloud.com/suite/sites/eagro
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: pause | Input: @3500 | Conditon:  | @08-Oct-2020 14:09:54.054
+[DONE]   | Thread sleep for '3500
+
+===================================================================================================
+
+Step:3   | Object: Browser | Action: setKey | Input: TestData0:Username | Conditon:  | @08-Oct-2020 14:09:58.058
+[DEBUG]   | eagro.cultivation1
+
+===================================================================================================
+
+2020-10-08 14:09:58:10S +0100 [SEVERE] com.cognizant.cognizantits.engine.commands.mobile.nativ.KeyActions setKey:null
+java.lang.NoSuchFieldException: eagro.cultivation1
+	at java.base/java.lang.Class.getDeclaredField(Class.java:2411)
+	at com.cognizant.cognizantits.engine.commands.mobile.nativ.KeyActions.setKey(KeyActions.java:150)
+	at com.cognizant.cognizantits.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:165)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:161)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:395)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:346)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:130)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:85)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Step:4   | Object: EAgro_Password | Action: setEncrypted | Input: TestData0:Password | Conditon:  | @08-Oct-2020 14:09:58.058
+Using @id [pw], Object 'EAgro_Password' Found in 35 ms
+[DONE]   | Entered Encrypted Text 89pjMintlF4DQm+SFRKFDA== on EAgro_Password
+
+===================================================================================================
+
+Step:5   | Object: EAgro_Login | Action: Click | Input:  | Conditon:  | @08-Oct-2020 14:09:58.058
+Using @relative_xpath [//input[@value='Sign In']], Object 'EAgro_Login' Found in 23 ms
+[DONE]   | Clicking on EAgro_Login
+
+===================================================================================================
+
+Step:6   | Object: Browser | Action: pause | Input: @3000 | Conditon:  | @08-Oct-2020 14:09:59.059
+[DONE]   | Thread sleep for '3000
+
+===================================================================================================
+
+Step:7   | Object: EAgro_Welcome | Action: verifyElementPresent | Input:  | Conditon:  | @08-Oct-2020 14:10:02.002
+[1602162608.277][WARNING]: Timed out connecting to Chrome, retrying...
+2020-10-08 14:10:16:10S +0100 [OFF ] com.cognizant.cognizantits.engine.drivers.AutomationObject getElements:null
+org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GL110P1', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\ramra\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56601}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 426292e49ab8774477142bbb8d9bfac8
+*** Element info: {Using=xpath, value=//strong[text()='Welcome, John']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.lambda$getElements$0(AutomationObject.java:312)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.getElements(AutomationObject.java:303)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.getWElements(AutomationObject.java:255)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.findElements(AutomationObject.java:242)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.findElement(AutomationObject.java:118)
+	at com.cognizant.cognizantits.engine.drivers.AutomationObject.findElement(AutomationObject.java:111)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:93)
+	at com.cognizant.cognizantits.engine.core.CommandControl.sync(CommandControl.java:169)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:160)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:395)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:346)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:130)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:85)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Couldn't find Object 'EAgro_Welcome' in stipulated Time '10' Seconds
+[1602162620.335][WARNING]: Timed out connecting to Chrome, retrying...
+2020-10-08 14:10:28:10S +0100 [SEVERE] com.cognizant.cognizantits.engine.core.Task runIteration:Driver Chrome Closed / Could not be reached
+com.cognizant.cognizantits.engine.execution.exception.DriverClosedException: Driver Chrome Closed / Could not be reached
+	at com.cognizant.cognizantits.engine.drivers.SeleniumDriver.isAlive(SeleniumDriver.java:148)
+	at com.cognizant.cognizantits.engine.commands.Command.isDriverAlive(Command.java:118)
+	at com.cognizant.cognizantits.engine.commands.General.checkIfDriverIsAlive(General.java:37)
+	at com.cognizant.cognizantits.engine.commands.General.elementPresent(General.java:45)
+	at com.cognizant.cognizantits.engine.commands.VerifyElement.verifyElementPresent(VerifyElement.java:56)
+	at com.cognizant.cognizantits.engine.support.reflect.MethodExecutor.executeMethod(MethodExecutor.java:39)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeAction(TestStepRunner.java:165)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:161)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.executeStep(TestStepRunner.java:147)
+	at com.cognizant.cognizantits.engine.execution.run.TestStepRunner.run(TestStepRunner.java:66)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.runStep(TestCaseRunner.java:395)
+	at com.cognizant.cognizantits.engine.execution.run.TestCaseRunner.run(TestCaseRunner.java:346)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:130)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:85)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+[FAIL]   | Driver Chrome Closed / Could not be reached
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : Home EAgro:Verify Login
+Executed Steps       : 7
+Passed Steps         : 5
+Failed Steps         : 2
+Time Taken           : 00:00:38
+-----------------------------------------------------
+
+Run Finished on Thu Oct 08 14:10:28 BST 2020
+-----------------------------------------------------
+ExecutionDate        : 08-Oct-2020 14-09-50
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:00:38
+ReportPath           : file:///C:\Working\Automation\cognizant-intelligent-test-scripter-1.4-setup\cognizant-intelligent-test-scripter-1.4\Projects\Appian Europe Conference\Results\TestDesign\Home EAgro\Verify Login\08-Oct-2020 14-09-50\summary.html
+-----------------------------------------------------

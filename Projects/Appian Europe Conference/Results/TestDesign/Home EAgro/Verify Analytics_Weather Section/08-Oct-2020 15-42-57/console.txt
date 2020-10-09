@@ -1,0 +1,104 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.4
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 11.0.8
+java.home            : C:\Program Files\Java\jdk-11.0.8
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Thu Oct 08 15:42:57 BST 2020
+Loading Browser Profile
+Loading RunManager
+[Scenario:Home EAgro] [TestCase: Verify Analytics_Weather Section] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+ApiLink not available!!
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Inside Task Run
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 3654
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+2020-10-08 15:43:00:10S +0100 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: Weather_Sector:URL | Conditon:  | @08-Oct-2020 15:43:00.000
+[DONE]   | Opened Url: https://cognizant-82015.appiancloud.com/suite/sites/eagro
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: pause | Input: @3500 | Conditon:  | @08-Oct-2020 15:43:01.001
+[DONE]   | Thread sleep for '3500
+
+===================================================================================================
+
+Step:3   | Object: EAgro_Username | Action: Set | Input: Weather_Sector:Username | Conditon:  | @08-Oct-2020 15:43:05.005
+Using @id [un], Object 'EAgro_Username' Found in 26 ms
+[DONE]   | Entered Text 'eagro.cultivation1' on 'EAgro_Username'
+
+===================================================================================================
+
+Step:4   | Object: EAgro_Password | Action: setEncrypted | Input: Weather_Sector:Password | Conditon:  | @08-Oct-2020 15:43:05.005
+Using @id [pw], Object 'EAgro_Password' Found in 28 ms
+[DONE]   | Entered Encrypted Text 89pjMintlF4DQm+SFRKFDA== on EAgro_Password
+
+===================================================================================================
+
+Step:5   | Object: EAgro_Login | Action: Click | Input:  | Conditon:  | @08-Oct-2020 15:43:05.005
+Using @relative_xpath [//input[@value='Sign In']], Object 'EAgro_Login' Found in 25 ms
+[DONE]   | Clicking on EAgro_Login
+
+===================================================================================================
+
+Step:6   | Object: Browser | Action: pause | Input: @3000 | Conditon:  | @08-Oct-2020 15:43:11.011
+[DONE]   | Thread sleep for '3000
+
+===================================================================================================
+
+Step:7   | Object: EAgro_Welcome | Action: verifyElementPresent | Input:  | Conditon:  | @08-Oct-2020 15:43:14.014
+Using @relative_xpath [//strong[text()='Welcome, John']], Object 'EAgro_Welcome' Found in 52 ms
+[PASS]   | Element [EAgro_Welcome] is Present
+
+===================================================================================================
+
+Step:8   | Object: EAgro_Analytics_Link | Action: Click | Input:  | Conditon:  | @08-Oct-2020 15:43:19.019
+Using @relative_xpath [(//a[@tabindex='0'])[3]], Object 'EAgro_Analytics_Link' Found in 20 ms
+[DONE]   | Clicking on EAgro_Analytics_Link
+
+===================================================================================================
+
+Step:9   | Object: Browser | Action: pause | Input: @3000 | Conditon:  | @08-Oct-2020 15:43:19.019
+[DONE]   | Thread sleep for '3000
+
+===================================================================================================
+
+Step:10  | Object: EAgro_Weather_Section | Action: assertElementTextIEquals | Input: @Weather Forecast | Conditon:  | @08-Oct-2020 15:43:22.022
+Using @relative_xpath [//h4[text()='Wetaher Forecast']], Object 'EAgro_Weather_Section' Found in 25 ms
+[FAIL]   | "EAgro_Weather_Section" text is "wetaher forecast" but should be "weather forecast"
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : Home EAgro:Verify Analytics_Weather Section
+Executed Steps       : 10
+Passed Steps         : 9
+Failed Steps         : 1
+Time Taken           : 00:00:30
+-----------------------------------------------------
+
+Run Finished on Thu Oct 08 15:43:27 BST 2020
+-----------------------------------------------------
+ExecutionDate        : 08-Oct-2020 15-42-57
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:00:30
+ReportPath           : file:///C:\Working\Automation\cognizant-intelligent-test-scripter-1.4-setup\cognizant-intelligent-test-scripter-1.4\Projects\Appian Europe Conference\Results\TestDesign\Home EAgro\Verify Analytics_Weather Section\08-Oct-2020 15-42-57\summary.html
+-----------------------------------------------------
