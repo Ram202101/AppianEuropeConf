@@ -6,4 +6,4 @@ true,Home EAgro,Verify Analytics_Weather Section,Single,Failed,Chrome Headless,D
 true,Home EAgro,Verify Login,Single,Passed,Chrome Headless,Default,Any
 true,Home EAgro,Search Cotton,Single,Passed,Chrome Headless,Default,Any
 true,Home EAgro,Search By BatchID,Single,Passed,Chrome Headless,Default,Any
-true,Home EAgro,Admin_Save,Single,Passed,Chrome Headless,Default,Any
+false,Home EAgro,Admin_Save,Single,Passed,Chrome Headless,Default,Any
