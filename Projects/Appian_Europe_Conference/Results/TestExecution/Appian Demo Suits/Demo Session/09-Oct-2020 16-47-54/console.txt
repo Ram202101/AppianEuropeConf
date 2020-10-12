@@ -1,0 +1,196 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.4
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 11.0.8
+java.home            : C:\Program Files\Java\jdk-11.0.8
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Fri Oct 09 16:47:54 BST 2020
+Loading Browser Profile
+Loading RunManager
+[Scenario:Home EAgro] [TestCase: Verify Analytics_ProcessMetrics] [Description: Verify Analytics_ProcessMetrics] [Browser: Chrome Headless] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+----------------------------------------------------------
+[1] TestCase selected for execution from [//Appian Demo Suits/Demo Session]
+----------------------------------------------------------
+Initializing Report
+ApiLink not available!!
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Inside Task Run
+Running Iteration 1
+Launching Chrome Headless
+Launching Local Driver
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 41714
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1602258475.054][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+2020-10-09 16:47:57:10S +0100 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Chrome Headless Launched
+Step:1   | Object: Browser | Action: Open | Input: Verify Analytics_ProcessMetrics:URL | Conditon:  | @09-Oct-2020 16:47:57.057
+[DONE]   | Opened Url: https://cognizant-82015.appiancloud.com/suite/sites/eagro
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: pause | Input: @3500 | Conditon:  | @09-Oct-2020 16:47:58.058
+[DONE]   | Thread sleep for '3500
+
+===================================================================================================
+
+Step:3   | Object: EAgro_Username | Action: Set | Input: Verify Analytics_ProcessMetrics:Username | Conditon:  | @09-Oct-2020 16:48:01.001
+Using @id [un], Object 'EAgro_Username' Found in 29 ms
+[DONE]   | Entered Text 'eagro.cultivation1' on 'EAgro_Username'
+
+===================================================================================================
+
+Step:4   | Object: EAgro_Password | Action: setEncrypted | Input: Verify Analytics_ProcessMetrics:Password | Conditon:  | @09-Oct-2020 16:48:01.001
+Using @id [pw], Object 'EAgro_Password' Found in 25 ms
+[DONE]   | Entered Encrypted Text 89pjMintlF4DQm+SFRKFDA== on EAgro_Password
+
+===================================================================================================
+
+Step:5   | Object: EAgro_Login | Action: Click | Input:  | Conditon:  | @09-Oct-2020 16:48:02.002
+Using @relative_xpath [//input[@value='Sign In']], Object 'EAgro_Login' Found in 22 ms
+[DONE]   | Clicking on EAgro_Login
+
+===================================================================================================
+
+Step:6   | Object: Browser | Action: pause | Input: @3000 | Conditon:  | @09-Oct-2020 16:48:05.005
+[DONE]   | Thread sleep for '3000
+
+===================================================================================================
+
+Step:7   | Object: EAgro_Welcome | Action: verifyElementPresent | Input:  | Conditon:  | @09-Oct-2020 16:48:08.008
+Using @relative_xpath [//strong[text()='Welcome, John']], Object 'EAgro_Welcome' Found in 36 ms
+[PASS]   | Element [EAgro_Welcome] is Present
+
+===================================================================================================
+
+Step:8   | Object: EAgro_Analytics_Link | Action: Click | Input:  | Conditon:  | @09-Oct-2020 16:48:10.010
+Using @relative_xpath [(//a[@tabindex='0'])[3]], Object 'EAgro_Analytics_Link' Found in 11 ms
+[DONE]   | Clicking on EAgro_Analytics_Link
+
+===================================================================================================
+
+Step:9   | Object: Browser | Action: pause | Input: @3000 | Conditon:  | @09-Oct-2020 16:48:10.010
+[DONE]   | Thread sleep for '3000
+
+===================================================================================================
+
+Step:10  | Object: EAgro_Process_metrics | Action: Click | Input:  | Conditon:  | @09-Oct-2020 16:48:13.013
+Using @relative_xpath [(//strong[@class='StrongText---richtext_strong'])[4]], Object 'EAgro_Process_metrics' Found in 16 ms
+[DONE]   | Clicking on EAgro_Process_metrics
+
+===================================================================================================
+
+Step:11  | Object: Browser | Action: pause | Input: @3000 | Conditon:  | @09-Oct-2020 16:48:13.013
+[DONE]   | Thread sleep for '3000
+
+===================================================================================================
+
+Step:12  | Object: EAgro_PS_WorkItem | Action: assertElementTextEquals | Input: @No data available | Conditon:  | @09-Oct-2020 16:48:16.016
+Using @relative_xpath [(//div[@class='MessageLayout---message MessageLayout---info'])[1]], Object 'EAgro_PS_WorkItem' Found in 13 ms
+[PASS]   | EAgro_PS_WorkItem's Text IS No data available 
+
+===================================================================================================
+
+Running Iteration 2
+Launching Chrome Headless
+Launching Local Driver
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 5825
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1602258499.010][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+2020-10-09 16:48:21:10S +0100 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Chrome Headless Launched
+Step:1   | Object: Browser | Action: Open | Input: Verify Analytics_ProcessMetrics:URL | Conditon:  | @09-Oct-2020 16:48:21.021
+[DONE]   | Opened Url: https://cognizant-82015.appiancloud.com/suite/sites/eagro
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: pause | Input: @3500 | Conditon:  | @09-Oct-2020 16:48:21.021
+[DONE]   | Thread sleep for '3500
+
+===================================================================================================
+
+Step:3   | Object: EAgro_Username | Action: Set | Input: Verify Analytics_ProcessMetrics:Username | Conditon:  | @09-Oct-2020 16:48:25.025
+Using @id [un], Object 'EAgro_Username' Found in 15 ms
+[DONE]   | Entered Text 'eagro.cultivation1' on 'EAgro_Username'
+
+===================================================================================================
+
+Step:4   | Object: EAgro_Password | Action: setEncrypted | Input: Verify Analytics_ProcessMetrics:Password | Conditon:  | @09-Oct-2020 16:48:25.025
+Using @id [pw], Object 'EAgro_Password' Found in 11 ms
+[DONE]   | Entered Encrypted Text 89pjMintlF4DQm+SFRKFDA== on EAgro_Password
+
+===================================================================================================
+
+Step:5   | Object: EAgro_Login | Action: Click | Input:  | Conditon:  | @09-Oct-2020 16:48:25.025
+Using @relative_xpath [//input[@value='Sign In']], Object 'EAgro_Login' Found in 12 ms
+[DONE]   | Clicking on EAgro_Login
+
+===================================================================================================
+
+Step:6   | Object: Browser | Action: pause | Input: @3000 | Conditon:  | @09-Oct-2020 16:48:28.028
+[DONE]   | Thread sleep for '3000
+
+===================================================================================================
+
+Step:7   | Object: EAgro_Welcome | Action: verifyElementPresent | Input:  | Conditon:  | @09-Oct-2020 16:48:31.031
+Using @relative_xpath [//strong[text()='Welcome, John']], Object 'EAgro_Welcome' Found in 35 ms
+[PASS]   | Element [EAgro_Welcome] is Present
+
+===================================================================================================
+
+Step:8   | Object: EAgro_Analytics_Link | Action: Click | Input:  | Conditon:  | @09-Oct-2020 16:48:33.033
+Using @relative_xpath [(//a[@tabindex='0'])[3]], Object 'EAgro_Analytics_Link' Found in 20 ms
+[DONE]   | Clicking on EAgro_Analytics_Link
+
+===================================================================================================
+
+Step:9   | Object: Browser | Action: pause | Input: @3000 | Conditon:  | @09-Oct-2020 16:48:33.033
+[DONE]   | Thread sleep for '3000
+
+===================================================================================================
+
+Step:10  | Object: EAgro_Process_metrics | Action: Click | Input:  | Conditon:  | @09-Oct-2020 16:48:36.036
+Using @relative_xpath [(//strong[@class='StrongText---richtext_strong'])[4]], Object 'EAgro_Process_metrics' Found in 30 ms
+[DONE]   | Clicking on EAgro_Process_metrics
+
+===================================================================================================
+
+Step:11  | Object: Browser | Action: pause | Input: @3000 | Conditon:  | @09-Oct-2020 16:48:36.036
+[DONE]   | Thread sleep for '3000
+
+===================================================================================================
+
+Step:12  | Object: EAgro_PS_WorkItem | Action: assertElementTextEquals | Input: @No data available | Conditon:  | @09-Oct-2020 16:48:39.039
+Using @relative_xpath [(//div[@class='MessageLayout---message MessageLayout---info'])[1]], Object 'EAgro_PS_WorkItem' Found in 510 ms
+[PASS]   | EAgro_PS_WorkItem's Text IS No data available 
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : Home EAgro:Verify Analytics_ProcessMetrics
+Executed Steps       : 12
+Passed Steps         : 24
+Failed Steps         : 0
+Time Taken           : 00:00:47
+-----------------------------------------------------
+
+Run Finished on Fri Oct 09 16:48:41 BST 2020
+-----------------------------------------------------
+ExecutionDate        : 09-Oct-2020 16-47-54
+Executed TestCases   : 1
+Passed TestCases     : 1
+Failed TestCases     : 0
+Time Taken           : 00:00:47
+ReportPath           : file:///C:\Working\Automation\cognizant-intelligent-test-scripter-1.4-setup\AppianEuropeConf\Projects\Appian Europe Conference\Results\TestExecution\Appian Demo Suits\Demo Session\09-Oct-2020 16-47-54\summary.html
+-----------------------------------------------------

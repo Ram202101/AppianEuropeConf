@@ -1,0 +1,206 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.4
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 11.0.8
+java.home            : C:\Program Files\Java\jdk-11.0.8
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Fri Oct 09 15:23:02 BST 2020
+Loading Browser Profile
+Loading RunManager
+[Scenario:Home EAgro] [TestCase: Verify Analytics_ProcessMetrics] [Description: Verify Analytics_ProcessMetrics] [Browser: Chrome] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+----------------------------------------------------------
+[1] TestCase selected for execution from [//Appian Demo Suits/Demo Session]
+----------------------------------------------------------
+Initializing Report
+ApiLink not available!!
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Inside Task Run
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 21010
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1602253385.094][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+[1602253389.110][WARNING]: Timed out connecting to Chrome, retrying...
+2020-10-09 15:23:17:10S +0100 [SEVERE] com.cognizant.cognizantits.engine.core.Task onError:session not created
+from chrome not reachable
+  (Session info: chrome=86.0.4240.75)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GL110P1', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: driver.version: SeleniumDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F7D383+3134339]
+	Ordinal0 [0x00E6A171+2007409]
+	Ordinal0 [0x00D0AD90+568720]
+	Ordinal0 [0x00D01364+529252]
+	Ordinal0 [0x00D019FC+530940]
+	Ordinal0 [0x00D02C15+535573]
+	Ordinal0 [0x00CFDFC5+516037]
+	Ordinal0 [0x00D0BF70+573296]
+	Ordinal0 [0x00CB1916+203030]
+	Ordinal0 [0x00CB0C1D+199709]
+	Ordinal0 [0x00CAEB0B+191243]
+	Ordinal0 [0x00C92E77+77431]
+	Ordinal0 [0x00C93E3E+81470]
+	Ordinal0 [0x00C93DC9+81353]
+	Ordinal0 [0x00E80CD9+2100441]
+	GetHandleVerifier [0x010EB75A+1396954]
+	GetHandleVerifier [0x010EB3D9+1396057]
+	GetHandleVerifier [0x010F7126+1444518]
+	GetHandleVerifier [0x010EBCE8+1398376]
+	Ordinal0 [0x00E77F51+2064209]
+	Ordinal0 [0x00E822EB+2106091]
+	Ordinal0 [0x00E82411+2106385]
+	Ordinal0 [0x00E949C4+2181572]
+	BaseThreadInitThunk [0x76896359+25]
+	RtlGetAppContainerNamedObjectPath [0x77267C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77267BF4+180]
+
+org.openqa.selenium.SessionNotCreatedException: session not created
+from chrome not reachable
+  (Session info: chrome=86.0.4240.75)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GL110P1', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: driver.version: SeleniumDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F7D383+3134339]
+	Ordinal0 [0x00E6A171+2007409]
+	Ordinal0 [0x00D0AD90+568720]
+	Ordinal0 [0x00D01364+529252]
+	Ordinal0 [0x00D019FC+530940]
+	Ordinal0 [0x00D02C15+535573]
+	Ordinal0 [0x00CFDFC5+516037]
+	Ordinal0 [0x00D0BF70+573296]
+	Ordinal0 [0x00CB1916+203030]
+	Ordinal0 [0x00CB0C1D+199709]
+	Ordinal0 [0x00CAEB0B+191243]
+	Ordinal0 [0x00C92E77+77431]
+	Ordinal0 [0x00C93E3E+81470]
+	Ordinal0 [0x00C93DC9+81353]
+	Ordinal0 [0x00E80CD9+2100441]
+	GetHandleVerifier [0x010EB75A+1396954]
+	GetHandleVerifier [0x010EB3D9+1396057]
+	GetHandleVerifier [0x010F7126+1444518]
+	GetHandleVerifier [0x010EBCE8+1398376]
+	Ordinal0 [0x00E77F51+2064209]
+	Ordinal0 [0x00E822EB+2106091]
+	Ordinal0 [0x00E82411+2106385]
+	Ordinal0 [0x00E949C4+2181572]
+	BaseThreadInitThunk [0x76896359+25]
+	RtlGetAppContainerNamedObjectPath [0x77267C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77267BF4+180]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at com.cognizant.cognizantits.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:192)
+	at com.cognizant.cognizantits.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:171)
+	at com.cognizant.cognizantits.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:161)
+	at com.cognizant.cognizantits.engine.drivers.SeleniumDriver.launchDriver(SeleniumDriver.java:66)
+	at com.cognizant.cognizantits.engine.core.Task.launchBrowser(Task.java:158)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:128)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:85)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+[DEBUG]   | session not created
+from chrome not reachable
+  (Session info: chrome=86.0.4240.75)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GL110P1', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: driver.version: SeleniumDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00F7D383+3134339]
+	Ordinal0 [0x00E6A171+2007409]
+	Ordinal0 [0x00D0AD90+568720]
+	Ordinal0 [0x00D01364+529252]
+	Ordinal0 [0x00D019FC+530940]
+	Ordinal0 [0x00D02C15+535573]
+	Ordinal0 [0x00CFDFC5+516037]
+	Ordinal0 [0x00D0BF70+573296]
+	Ordinal0 [0x00CB1916+203030]
+	Ordinal0 [0x00CB0C1D+199709]
+	Ordinal0 [0x00CAEB0B+191243]
+	Ordinal0 [0x00C92E77+77431]
+	Ordinal0 [0x00C93E3E+81470]
+	Ordinal0 [0x00C93DC9+81353]
+	Ordinal0 [0x00E80CD9+2100441]
+	GetHandleVerifier [0x010EB75A+1396954]
+	GetHandleVerifier [0x010EB3D9+1396057]
+	GetHandleVerifier [0x010F7126+1444518]
+	GetHandleVerifier [0x010EBCE8+1398376]
+	Ordinal0 [0x00E77F51+2064209]
+	Ordinal0 [0x00E822EB+2106091]
+	Ordinal0 [0x00E82411+2106385]
+	Ordinal0 [0x00E949C4+2181572]
+	BaseThreadInitThunk [0x76896359+25]
+	RtlGetAppContainerNamedObjectPath [0x77267C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77267BF4+180]
+
+
+===================================================================================================
+
+2020-10-09 15:23:17:10S +0100 [SEVERE] com.cognizant.cognizantits.engine.reporting.impl.html.HtmlTestCaseHandler updateTestLog:null
+java.lang.NullPointerException
+	at com.cognizant.cognizantits.engine.reporting.impl.html.HtmlTestCaseHandler.updateTestLog(HtmlTestCaseHandler.java:103)
+	at com.cognizant.cognizantits.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:134)
+	at com.cognizant.cognizantits.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:105)
+	at com.cognizant.cognizantits.engine.core.Task.onError(Task.java:195)
+	at com.cognizant.cognizantits.engine.core.Task.onError(Task.java:183)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:140)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:85)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+---------------------------------------------------
+Testcase Name        : Home EAgro:Verify Analytics_ProcessMetrics
+Executed Steps       : 1
+Passed Steps         : 0
+Failed Steps         : 0
+Time Taken           : 00:00:14
+-----------------------------------------------------
+
+Run Finished on Fri Oct 09 15:23:17 BST 2020
+-----------------------------------------------------
+ExecutionDate        : 09-Oct-2020 15-23-02
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:00:14
+ReportPath           : file:///C:\Working\Automation\cognizant-intelligent-test-scripter-1.4-setup\AppianEuropeConf\Projects\Appian Europe Conference\Results\TestExecution\Appian Demo Suits\Demo Session\09-Oct-2020 15-23-02\summary.html
+-----------------------------------------------------
