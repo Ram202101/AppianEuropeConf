@@ -1,7 +1,0 @@
-<Root ref="Appian Europe Conference" type="RC">
-<Folder ref="New Group">
-<Scenario ref="Home EAgro">
-<TestCase exeType="Executable" ref="EAgro_Login"/>
-</Scenario>
-</Folder>
-</Root>

@@ -1,9 +1,0 @@
-Execute,TestScenario,TestCase,Iteration,Status,Browser,BrowserVersion,Platform
-true,Home EAgro,Verify Analytics_ProcessMetrics,Single,Passed,Chrome Headless,Default,Any
-true,Home EAgro,Verify Analytics_TaskMgmt,Single,Passed,Chrome Headless,Default,Any
-true,Home EAgro,Search By BatchID 201,Single,Passed,Chrome Headless,Default,Any
-true,Home EAgro,Verify Analytics_Weather Section,Single,Failed,Chrome Headless,Default,Any
-true,Home EAgro,Verify Login,Single,Passed,Chrome Headless,Default,Any
-true,Home EAgro,Search Cotton,Single,Passed,Chrome Headless,Default,Any
-true,Home EAgro,Search By BatchID,Single,Passed,Chrome Headless,Default,Any
-true,Home EAgro,Admin_Save,Single,Passed,Chrome Headless,Default,Any
